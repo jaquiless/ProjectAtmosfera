@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/PlantillaSeccion.css" />
+  </head>
+  <body class="container w-100" background="img/FondoCalido.jpg">
+    <div class="container w-100">
+      <div class="row h-100 backB">
+
+        <!--Boton al menú principal-->
+        <div class="col-12 col-sm-4 col-md-2">
+          <a href="../../main.html"
+            ><img class="backImg" src="../img/Atras.png"
+          /></a>
+        </div>
+      </div>
+      <!--
+            LIENZO
+            ESPACIADO
+        -->
+      <div class="row lienzo">
+        <div
+          class="col-12 col-sm-2 mx-0 col-md-2 d-flex justify-content-center"
+        ></div>
+      </div>
+
+      <!-- Codigo para la funcion de PlayPause para los sonidos en los botones-->
+      <audio class="d-flex justify-content-center" id="audioFile">
+        <source src="" type="audio/mpeg"/>
+      </audio>
+      <script>
+        document.getElementById("audioFile").controls = false;
+      </script>
+
+      <!-- Botones de Audios-->
+      <div class="row d-flex justify-content-center align-items-center">
+
+        <!-- Boton Hoguera-->
+        <div id="hoguera" class="col-12 col-sm-4 col-md-4 col-lg-2 sound" style=text-align:center>
+          <a>
+          <img
+            id="imgControlHoguera"
+            onclick="playPauseCalido(1)"
+            class="IconImg"
+            src="./img/hoguera.png"
+          />
+          </a>
+          <h4 id= "calido-0" class="text-center"></h4>
+        </div>
+
+        <!-- Boton Chimenea-->
+        <div id="chimenea" class="col-12 col-sm-4 col-md-4 col-lg-2 sound" style=text-align:center>
+          <a>
+          <img
+            id="imgControlChimenea"
+            onclick="playPauseCalido(2)"
+            class="IconImg"
+            src="img/chimenea.png"
+          />
+          </a>
+          <h4 id= "calido-1" class="text-center"></h4>
+        </div>
+
+        <!-- Boton Secador-->
+        <div id="secador" class="col-12 col-sm-4 col-md-4 col-lg-2 sound" style=text-align:center>
+          <a>
+          <img
+            id="imgControlSecador"
+            onclick="playPauseCalido(3)"
+            class="IconImg"
+            src="img/secador.png"
+          />
+          </a>
+          <h4 id= "calido-2" class="text-center"></h4>
+        </div>
+
+        <!--Boton Microondas-->
+        <div id="microondas" class="col-12 col-sm-6 col-md-4 col-lg-2 sound" style=text-align:center>
+          <a>
+          <img
+            id="imgControlMicroondas"
+            onclick="playPauseCalido(4)"
+            class="IconImg"
+            src="img/microondas.png"
+          />
+          </a>
+          <h4 id= "calido-3" class="text-center"></h4>
+        </div>
+
+        <!--Boton Calefactor-->
+        <div id="calefactor" class="col-12 col-sm-6 col-md-4 col-lg-2 sound" style=text-align:center>
+          <a>
+          <audio class="d-flex justify-content-center" id="audioFile5">
+            <source src="../Sounds/Calido/Calefactor.mp3" type="audio/mpeg" />
+          </audio>
+          <script>
+            document.getElementById("audioFile5").controls = false;
+          </script>
+          <img
+            id="imgControlCalefactor"
+            onclick="playPauseCalido(5)"
+            class="IconImg"
+            src="img/calefactor.png"
+          />
+          </a>
+          <h4 id= "calido-4" class="text-center"></h4>
+        </div>
+      </div>
+      
+      <!--
+            LIENZO
+            ESPACIADO
+        -->
+      <div class="row lienzo">
+        <div
+          class="col-12 col-sm-2 mx-0 col-md-2 d-flex justify-content-center"
+        ></div>
+      </div>
+
+      <!--Botones de acceso directo (AC)-->
+      <div class="row">
+
+        <!--Boton AC a seccion Salud-->
+        <div class="col-12 col-sm-3 col-md-4 salud">
+          <a class="d-flex justify-content-start" href="../Salud/Salud.html">
+            <img class="footerImg" src="../img/Salud.png"/>
+          </a>
+        </div>
+
+        <!--Boton AC a seccion Salud-->
+        <div class="col-12 col-sm-2 mx-0 col-md-1 d-flex justify-content-center terceros">
+          <a class="d-flex justify-content-center" href="../Salvaje/Salvaje.html">
+            <img class="footerImg" src="../img/Salvaje.png"/>
+          </a>
+        </div>
+
+        <!--Boton AC a seccion Agua-->
+        <div class="col-12 col-sm-1 mx-0 col-md-1 d-flex justify-content-center terceros">
+          <a class="d-flex justify-content-center" href="../Agua/Agua.html">
+            <img class="footerImg" src="../img/Agua.png"/>
+          </a>
+        </div>
+
+        <!--Boton AC a seccion Aire-->
+        <div class="col-12 col-sm-2 mx-0 col-md-1 d-flex justify-content-center terceros">
+          <a class="d-flex justify-content-center" href="../Aire/Aire.html">
+            <img class="footerImg" src="../img/aire.png"/>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <!--JavaScript-->
+    <script src="./js/playPauseCalido.js"></script>
+    <script src="./js/ConsEndpintCalido.js"></script>
+  </body>
+</html>

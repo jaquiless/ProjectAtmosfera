@@ -1,0 +1,70 @@
+.header .navbar {
+    background-color: transparent !important;
+  }
+
+body{
+    background-size: 100%;
+}
+
+.titulo{
+    height: 23vh ;
+    margin-top: 5vh;
+}
+
+.salud{
+    margin-top: 7vh; 
+}
+
+.imagen:hover{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    box-shadow: 7px 7px 11px #ffffff, -7px -7px 11px #ffffff;
+}
+.IconImg{
+    width: 17vh;
+    height: 17vh;
+}
+
+.footerImg{
+    width: 13vh;
+    height: 13vh;
+}
+
+.lienzo{
+    height: 12vh;
+}
+@media (max-width: 575.98px) {
+    .ayuda{
+        display: flex;
+        justify-content: center;
+    }
+    .lienzo{
+        height: 0vh;
+    }
+    .back, .backImg, a{
+        display: flex;
+        justify-content: center;
+    }
+    .backImg{
+        width: 13vh;
+        height: 13vh;
+    }
+    .soundImg{
+        width: 16vh;
+        height: 16vh;
+    }
+    .footerImg{
+        width: 13vh;
+        height: 13vh;
+    }
+    h4{
+        font-size: 2vh;
+    }
+
+    .salud{
+        margin-top: 0vh; 
+    }
+}

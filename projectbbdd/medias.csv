@@ -1,0 +1,40 @@
+id,description,urls,Types_id
+1,Viento,https://cdn.pixabay.com/download/audio/2022/09/16/audio_2e48d4e031.mp3?filename=viento-119996.mp3,1
+2,Ventisca,https://cdn.pixabay.com/download/audio/2022/09/16/audio_8d62b0408f.mp3?filename=ventisca-119997.mp3,1
+3,Blizzard,https://cdn.pixabay.com/download/audio/2022/09/14/audio_e44a0322fa.mp3?filename=tormenta-119947.mp3,1
+4,Acondicionado,https://cdn.pixabay.com/download/audio/2022/09/14/audio_986f2e912c.mp3?filename=aireacondicionado-119946.mp3,1
+5,Ventilador,https://cdn.pixabay.com/download/audio/2022/09/16/audio_4cb6f54aa5.mp3?filename=ventilador-120188.mp3,1
+6,Lluvia,https://cdn.pixabay.com/download/audio/2022/09/14/audio_4d55805b34.mp3?filename=lluvia-119941.mp3,1
+7,Rio,https://cdn.pixabay.com/download/audio/2022/09/14/audio_4000693acc.mp3?filename=rio-119944.mp3,1
+8,Olas,https://cdn.pixabay.com/download/audio/2022/09/14/audio_3b25b6b7a7.mp3?filename=olas-119945.mp3,1
+9,Oceano,https://cdn.pixabay.com/download/audio/2022/09/14/audio_bf745169f1.mp3?filename=oceano-119943.mp3,1
+10,Goteo,https://cdn.pixabay.com/download/audio/2022/09/14/audio_297626b1ab.mp3?filename=goteo-119942.mp3,1
+11,Hoguera,https://cdn.pixabay.com/download/audio/2022/09/16/audio_e0f64e050a.mp3?filename=hoguera-120179.mp3,1
+12,Chimenea,https://cdn.pixabay.com/download/audio/2022/09/16/audio_fea108274e.mp3?filename=chimenea-120176.mp3,1
+13,Secador,https://cdn.pixabay.com/download/audio/2022/09/16/audio_1cde705ed5.mp3?filename=secador-120180.mp3,1
+14,Microondas,https://cdn.pixabay.com/download/audio/2022/09/16/audio_68694cd6ce.mp3?filename=microondas-120178.mp3,1
+15,Calefactor,https://cdn.pixabay.com/download/audio/2022/09/16/audio_3c1bcf4334.mp3?filename=calefactor-120177.mp3,1
+16,Bosque,https://cdn.pixabay.com/download/audio/2022/09/16/audio_212f60f796.mp3?filename=bosque-120184.mp3,1
+17,Jungla,https://cdn.pixabay.com/download/audio/2022/09/16/audio_4d17b49798.mp3?filename=jungla-120181.mp3,1
+18,Sabana,https://cdn.pixabay.com/download/audio/2022/09/16/audio_e121e2ddfe.mp3?filename=sabana-120182.mp3,1
+19,"Fondo marino",https://cdn.pixabay.com/download/audio/2022/09/16/audio_699bedb31f.mp3?filename=fondomarino-120186.mp3,1
+20,"Bosque nocturno",https://cdn.pixabay.com/download/audio/2022/09/16/audio_78a7bf3823.mp3?filename=bosquenocturno-120185.mp3,1
+21,"Intrucción 1",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Introduccion\Introduction 1.txt"",2
+22,"Intrucción 2",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Introduccion\Introduction 2.txt"",2
+23,"Ejercicio 1",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Ejercicios\Ejercicio 1.txt"",2
+24,"Ejercicio 2",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Ejercicios\Ejercicio 2.txt"",2
+25,"Ejercicio 3",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Ejercicios\Ejercicio 3.txt"",2
+26,"Ejercicio 4",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Ejercicios\Ejercicio 4.txt"",2
+27,"Alimentación 1",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Alimentaciónes\Alimentación 1.txt"",2
+28,"Alimentación 2",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Alimentaciónes\Alimentación 2.txt"",2
+29,"Alimentación 3",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Alimentaciónes\Alimentación 3.txt"",2
+30,"Alimentación 4",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Alimentaciónes\Alimentación 4.txt"",2
+31,"Tecnologia 1",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Tecnologias\Tecnologia 1.txt"",2
+32,"Tecnologia 2",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Tecnologias\Tecnologia 2.txt"",2
+33,"Tecnologia 3",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Tecnologias\Tecnologia 3.txt"",2
+34,"Yoga 1",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Yoga\Yoga 1.txt"",2
+35,"Yoga 2",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Yoga\Yoga 2.txt"",2
+36,"Yoga 3",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Yoga\Yoga 3.txt"",2
+37,"Yoga 4",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Yoga\Yoga 4.txt"",2
+38,"Mindfulness 1",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Mindfulness\Mindfulness 1.txt"",2
+39,"Mindfulness 2",""C:\Users\JMMel\OneDrive\Bureau\Proyecto-Final-Esplai\Secciones\Ayuda\Mindfulness\Mindfulness 2.txt"",2
